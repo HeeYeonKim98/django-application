@@ -3,6 +3,7 @@
 ## django
 
 MAC : `source jango-venv/bin/activate`
+
 WINDOW : `source jango-venv/Script/activate`
 
 `python manage.py runserver`
