@@ -2,6 +2,7 @@ from django.db import models
 
 
 class Info(models.Model):
+    objects = models.Manager()
     title = models.CharField(max_length=200)
     content = models.TextField()
 
